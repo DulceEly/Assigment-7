@@ -113,15 +113,17 @@ empForm.addEventListener('submit', (e) => {
 
 
     // INCREMENENT THE NUMBER OF EMPLOYEES IN THE TABLE
+    
+       empCount.value = empTable.rows.length-1;
 
-    function count() {
-        for (let i = 1; i<empTable.newRow.length; i ++){
-            empTable[i].value;
-        }
-    }
+//     function count() {
+//         for (let i = 1; i<empTable.newRow.length; i ++){
+//             empTable[i].value;
+//         }
+//     }
 
-    let counText = document.createTextNode(count.innerText);
-    empCount.appendChild(counText);
+//     let counText = document.createTextNode(count.innerText);
+//     empCount.appendChild(counText);
 
 
 
